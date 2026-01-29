@@ -8,8 +8,14 @@ var applePrice = parseFloat('22.5');
 // console.log(orangePrice + applePrice);
 
 var first = 0.1;
-var second = 0.2;
+var second = 0.2;  
 var total = first + second;
-// console.log(total.toFixed(1))
+// console.log(total. )
 const num = -50 / 0;
 console.log(num);
+
+var age = "28.5"
+var aged = parseInt(age);
+var ages = parseFloat(age);
+
+console.log('Age = ', aged ," & " ,'Age2 = ', ages);
