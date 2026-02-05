@@ -13,4 +13,11 @@ person['fav places'] = ['maldives', 'bali', 'pataya']
 
 const propName = 'profession';
 person[propName] = 'devops'
-console.log(person)
+// console.log(person) 
+
+console.log(person.age);
+console.log(person['age']);
+
+console.log(Object.keys(person));
+console.log(Object.values(person));
+console.log(Object.entries(person));

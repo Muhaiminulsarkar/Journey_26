@@ -7,4 +7,8 @@ const computer = {
 }
 
 const keys = Object.keys(computer);
-console.log(keys)
+console.log(keys);
+
+for(const key of Object.keys(computer)){
+    console.log(key,computer[key]);
+}
