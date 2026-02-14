@@ -18,7 +18,7 @@ console.log('max value is', max);
 const numbers = [65, 66, 68, 72, 78, 60, 65, 66,4];
 
 function getMin(numbers){
-    let min = 0;
+    let min = numbers[0];
     for(const num of numbers){
         if(num < min){
             min = num;
